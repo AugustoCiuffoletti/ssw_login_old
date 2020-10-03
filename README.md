@@ -37,3 +37,15 @@ You can do this using the Stackblitz IDE
 
 Browse the new template files
 
+## Step 2
+
+The app-routing.module.ts is populated with suitable routes. The guard is added to the main route.
+
+The html of the root app component contains only a title and the router-outlet.
+
+The guard is always false.
+
+### Observe
+
+Visiting the URL with empty route points to the login page ("login works"), the same with a login route. The URL with the "main" route returns only the title (easy to configure an "Access Denied" component).
+
