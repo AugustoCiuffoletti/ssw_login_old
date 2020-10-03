@@ -57,3 +57,13 @@ The login form is added with a view and no function.
 
 See the form and type login and password, with no effect
 
+## Step 4
+
+Fake authentication (always true) and accessor method (isLogged) added to the authentication service.
+
+The login component invokes the injectable authentication service.
+
+### Observe
+
+The console traces the call from the login component to the authentication service
+
