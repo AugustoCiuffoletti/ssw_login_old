@@ -23,3 +23,17 @@ At this stage, we have simply created a new project using the Angular CLI, by sp
 
 You can load to stackblitz this project, and proceed updating it.
 
+## Step 1
+
+Here we create all the features of our project:
+
+  * two components: one for the login form, another for the (empty) main service
+  * a guard that will open/close the route to the main component
+  * a service that will operate asynchronously user I/O
+
+You can do this using the Stackblitz IDE
+
+### Observe
+
+Browse the new template files
+
