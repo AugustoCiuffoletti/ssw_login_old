@@ -49,3 +49,11 @@ The guard is always false.
 
 Visiting the URL with empty route points to the login page ("login works"), the same with a login route. The URL with the "main" route returns only the title (easy to configure an "Access Denied" component).
 
+##  Step 3
+
+The login form is added with a view and no function.
+
+### Observe
+
+See the form and type login and password, with no effect
+
