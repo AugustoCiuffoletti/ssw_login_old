@@ -87,3 +87,11 @@ Also the routing to the main component is moved inside the authentication servic
 
 Clicking the logout button returns to the login screen
 
+## Step 7
+
+Activate the credentials check with a pair user/password (user="user", password="secret"), and bind the variables in the module to variables to application variables with the NgModel directive.
+
+### Observe
+
+The login mechanism is fully functional. Enjoy...
+
